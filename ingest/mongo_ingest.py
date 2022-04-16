@@ -1,4 +1,3 @@
-from typing import Collection
 import pymongo
 from dotenv import dotenv_values
 
