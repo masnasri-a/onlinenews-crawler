@@ -1,4 +1,8 @@
-from media.bisnis import crawler
+from media.bisnis import crawler as bisnis
+from media.cnbcindonesia import crawler as cnbc
+from media.kontan import crawler as kontan
 
 if __name__=="__main__":
-    crawler.main()
+    bisnis.main()
+    cnbc.main()
+    kontan.main()
